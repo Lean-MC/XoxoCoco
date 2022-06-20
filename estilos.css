@@ -1,0 +1,80 @@
+*,::after,* ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    html{
+        font-family: 'Poppins', sans-serif;
+        font-size: 65.5%;
+    }
+    body{
+       background-image: url(fondo-xoco.jpg);
+       background-repeat: repeat-y;
+       }
+    .container{
+        height: 100vh;
+        width: 70vw;
+        margin: 2rem auto;
+    }
+    .container h2{
+        color: blue;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 2rem;
+        font-size: 2.3rem;
+    }
+    .formulario-datos{
+       opacity: 0.8;
+        display: block;
+        width: 50%;
+        margin: 0.5rem auto;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .formulario-datos input {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: none;
+        background-color: rgb(240, 207, 232);
+        color: black;
+        
+    }
+    
+   
+    
+    .formulario-datos button {
+       
+        background-color:blue;
+        border: 0;
+        color: white;
+        text-transform: uppercase;
+        border-radius: 5px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+        height: 2rem;
+        }
+
+        .Listado-Tareas{
+    display: flex;
+    flex-direction: column;
+    }
+    
+        .Tarea{
+            margin: 35px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 5rem;
+            color: rgb(101, 15, 182);
+            
+        }
+        .icono{
+        color: rgb(163, 11, 201);
+        cursor: pointer;
+    
+        }
